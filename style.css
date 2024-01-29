@@ -1,0 +1,80 @@
+html {
+    border-left: 5px solid lightgray;
+  }
+  
+  body {
+    min-height: 100vh;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0;
+  }
+  
+  header, main, footer {
+    padding: 1rem 2rem;
+  }
+  
+  h1 {
+    color: tomato;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  ul.nav {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  ul.nav li {
+    padding: 0;
+  }
+  
+  ul.nav a {
+    text-decoration: none;
+    color: lightgray;
+  }
+  
+  footer nav ul.nav a {
+    color: tomato;
+  }
+  
+  article h2 {
+    font-size: larger;
+  }
+  
+  article a {
+    float: right;
+    font-weight: bold;
+    color: tomato;
+  }
+  
+  article {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
+  }
+  
+  article p::first-letter {
+    color: lightgray;
+  }
+  
+  footer p {
+    color: lightgray;
+  }
+  
+  /* Additional styles to ensure proper Flexbox alignment and spacing */
+  nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav li {
+    list-style: none;
+  }
